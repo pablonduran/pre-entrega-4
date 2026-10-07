@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Como se configura Celery para evitar la perdida de tareas si un worker cae durante la ejecucion?",
+    "documento_esperado": "celery_configuracion.md"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cual es la diferencia entre delay y apply_async y como se programa una tarea con countdown?",
+    "documento_esperado": "celery_tareas.md"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Que excepcion se produce cuando el proceso de un worker es terminado inesperadamente por falta de memoria OOM?",
+    "documento_esperado": "celery_reintentos_errores.md"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿En que puerto corre por defecto la interfaz web de monitoreo de Flower y que comando la inicia?",
+    "documento_esperado": "celery_monitoreo_flower.md"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Como se configuran reintentos automaticos con retroceso exponencial retry_backoff en Celery?",
+    "documento_esperado": "celery_reintentos_errores.md"
+  }
+]
